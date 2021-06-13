@@ -9,7 +9,7 @@ build("nggyu.mp4", 69);
 
 
 class StringConsumer {
-    private matches?: RegExpMatchArray;
+    private matches: RegExpMatchArray | undefined;
     private nextPos = 0;
     done: boolean;
     constructor(str: string) {
